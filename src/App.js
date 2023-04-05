@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import Details from "./components/Details/Details";
 import RecipeCreate from "./components/RecipeCreate/RecipeCreate";
 import axios from "axios";
-axios.defaults.baseURL = "pi-food-back-production-640f.up.railway.app";
+axios.defaults.baseURL = "https://pi-food-back-production-c9fd.up.railway.app/";
 
 function App() {
   return (

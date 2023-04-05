@@ -51,8 +51,8 @@ const Filters = ({
         >
           <option hidden>All Diets</option>
           {diets &&
-            diets?.map((diet) => (
-              <option key={diet.id} value={diet.name}>
+            diets?.map((diet, i) => (
+              <option key={i} value={diet.name}>
                 {diet.name}
               </option>
             ))}
